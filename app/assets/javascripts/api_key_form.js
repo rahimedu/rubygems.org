@@ -25,7 +25,9 @@ $(function() {
     $("<input>").attr({
       type: "hidden",
       id: hiddenRubygemId,
-    appendTo(".t-body form .api_key_rubygem_id_form");
+      name: "api_key[rubygem_id]",
+      value: ""
+    }).appendTo(".t-body form .api_key_rubygem_id_form");
   }
 
   function removeHiddenRubygemField() {

@@ -7,9 +7,7 @@ $(function() {
     toggleGemSelector();
   });
 
-  function toggleGemSelector() {
-    var isApplicableGemScopeSelected = enableGemScopeCheckboxes.is(":checked");
-    var gemScopeSelector = $("#api_key_rubygem_id");
+  r gemScopeSelector = $("#api_key_rubygem_id");
 
     if (isApplicableGemScopeSelected) {
       gemScopeSelector.removeAttr("disabled");

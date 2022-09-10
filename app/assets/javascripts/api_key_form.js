@@ -3,10 +3,7 @@ $(function() {
   var hiddenRubygemId = "hidden_api_key_rubygem_id";
   toggleGemSelector();
 
-  enableGemScopeCheckboxes.click(function() {
-    toggleGemSelector();
-  });
-
+  
   function toggleGemSelector() {
     var isApplicableGemScopeSelected = enableGemScopeCheckboxes.is(":checked");
     var gemScopeSelector = $("#api_key_rubygem_id");

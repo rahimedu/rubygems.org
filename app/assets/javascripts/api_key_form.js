@@ -7,16 +7,11 @@ $(function() {
     toggleGemSelector();
   });
 
-  r gemScopeSelector = $("#api_key_rubygem_id");
+  function toggleGemSelector() {
+    var isApplicableGemScopeSelected = enableGemScopeCheckboxes.is(":checked");
+    var gemScopeSelector = $("#api_key_rubygem_id");
 
-    if (isApplicableGemScopeSelected) {
-      gemScopeSelector.removeAttr("disabled");
-      removeHiddenRubygemField();
-    } else {
-      gemScopeSelector.val("");
-      gemScopeSelector.prop("disabled", true);
-      addHiddenRubygemField();
-    }
+ }
   }
 
   function addHiddenRubygemField() {

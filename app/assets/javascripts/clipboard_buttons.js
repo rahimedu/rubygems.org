@@ -1,4 +1,23 @@
-y");
+$(function() {
+  var clipboard = new ClipboardJS('.gem__code__icon');
+  var copyTooltip = $('.gem__code__tooltip--copy');
+  var copiedTooltip = $('.gem__code__tooltip--copied');
+  var copyButtons = $('.gem__code__icon');
+
+  function hideCopyShowCopiedTooltips(e) {
+    copyTooltip.removeClass("clipboard-is-hover");
+    copiedTooltip.insertAfter(e.trigger);
+    copiedTooltip.addClass("clipboard-is-active");
+  };
+
+  clipboard.on('success', function(e) {
+    hideCopyShowCopiedTooltips(e);
+    e.clearSelection();
+  });
+
+  clipboard.on('error', function(e) {
+    hideCopyShowCopiedTooltips(e);
+    copiedTooltip.text("Ctrl-C to Copy");
   });
 
   copyButtons.hover(function() {

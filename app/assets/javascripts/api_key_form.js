@@ -30,7 +30,4 @@ $(function() {
     }).appendTo(".t-body form .api_key_rubygem_id_form");
   }
 
-  function removeHiddenRubygemField() {
-    $("#" + hiddenRubygemId + ":hidden").remove();
-  }
-});
+  

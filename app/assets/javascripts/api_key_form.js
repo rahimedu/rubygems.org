@@ -21,7 +21,10 @@ $(function() {
     }
   }
 
- e: "api_key[rubygem_id]",
+ 
+  
+  
+  e: "api_key[rubygem_id]",
       value: ""
     }).appendTo(".t-body form .api_key_rubygem_id_form");
   }

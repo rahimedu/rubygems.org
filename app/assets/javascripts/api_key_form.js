@@ -21,12 +21,11 @@ $(function() {
     }
   }
 
- 
-  
-  
-  e: "api_key[rubygem_id]",
-      value: ""
-    }).appendTo(".t-body form .api_key_rubygem_id_form");
+  function addHiddenRubygemField() {
+    $("<input>").attr({
+      type: "hidden",
+      id: hiddenRubygemId,
+    appendTo(".t-body form .api_key_rubygem_id_form");
   }
 
   function removeHiddenRubygemField() {

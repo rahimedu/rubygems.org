@@ -29,7 +29,3 @@ $(function() {
     copyTooltip.removeClass("clipboard-is-hover");
   });
 
-  copyButtons.mouseout(function() {
-    copiedTooltip.removeClass("clipboard-is-active");
-  });
-});

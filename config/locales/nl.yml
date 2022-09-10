@@ -1,0 +1,602 @@
+---
+nl:
+  edit: Wijzig
+  failure_when_forbidden: Controleer het webadres, en probeer het opnieuw.
+  feed_latest: RubyGems.org | Nieuwste Gems
+  feed_subscribed: RubyGems.org | Geabonneerde Gems
+  footer_about_html: RubyGems.org is de gem hosting service van de Ruby community.
+    <a href="%{publish_docs}">Publiceer</a> en <a href="%{install_docs}">installeer</a>
+    je gems direct. Gebruik <a href="%{api_docs}">de API</a> om meer informatie over
+    beschikbare gems te vinden. <a href="%{contributing_docs}">Word een deelnemer</a>
+    en verbeter de site met jouw aanpassingen.
+  footer_sponsors_html:
+  footer_join_rt_html:
+  form_disable_with: Een moment geduld...
+  invalid_page:
+  locale_name: Nederlands
+  none: Geen
+  not_found: Niet gevonden
+  api_key_forbidden:
+  please_sign_up: Toegang geweigerd. Schrijf je in voor een account op https://rubygems.org
+  please_sign_in:
+  otp_incorrect:
+  otp_missing:
+  sign_in: Inloggen
+  sign_up: Registreren
+  dependency_list:
+  multifactor_authentication: Multifactor authenticatie
+  subtitle: De gem host voor de community
+  this_rubygem_could_not_be_found: De gem kon niet gevonden worden.
+  time_ago: "%{duration} geleden"
+  title: RubyGems.org
+  update: Wijzig
+  try_again: Er is iets fout gegaan, probeer het opnieuw.
+  advanced_search: Uitgebreid zoeken
+  authenticate:
+  activerecord:
+    attributes:
+      linkset:
+        bugs: Bugtracker-URL
+        changelog: Changelog
+        code: Broncode URL
+        docs: Documentatie-URL
+        mail: Mailing-list-URL
+        wiki: Wiki URL
+        funding:
+      session:
+        password: Wachtwoord
+        who: E-mail of Gebruikersnaam
+      user:
+        avatar: Avatar
+        email: E-mailadres
+        handle: Gebruikersnaam
+        password: Wachtwoord
+    errors:
+      messages:
+        unpwn:
+        blocked:
+    models:
+      user:
+  api_keys:
+    create:
+      success:
+      invalid_gem:
+    destroy:
+      success:
+    index:
+      api_keys:
+      name:
+      scopes:
+      age:
+      gem:
+      last_access:
+      action:
+      delete:
+      confirm:
+      confirm_all:
+      new_key:
+      index_rubygems:
+      push_rubygem:
+      yank_rubygem:
+      add_owner:
+      remove_owner:
+      access_webhooks:
+      show_dashboard:
+      reset:
+      save_key:
+      mfa:
+    new:
+      new_api_key:
+      multifactor_auth:
+      enable_mfa:
+      rubygem_scope:
+      rubygem_scope_info:
+    reset:
+      success:
+    update:
+      success:
+      invalid_gem:
+    edit:
+      edit_api_key:
+      multifactor_auth:
+      enable_mfa:
+      rubygem_scope:
+      rubygem_scope_info:
+      invalid_key:
+    all_gems:
+    gem_ownership_removed:
+  clearance_mailer:
+    change_password:
+      title:
+      subtitle:
+  dashboards:
+    show:
+      creating_link_text: aanmaken
+      gem_link_text: gem pagina
+      latest: Laatste wijzigingen
+      latest_title: RSS Feed met Laatste wijzigingen 
+      migrating_link_text: migreren
+      mine: Mijn Gems
+      my_subscriptions: Mijn abonnementen
+      no_owned_html: Je hebt nog geen gems gepubliceerd. Bekijk de instructies voor
+        het %{creating_link} van een gem of het  %{migrating_link} van een gem vanaf
+        RubyForge.
+      no_subscriptions_html: Je bent nog niet geabonneerd op een of meerdere gems.
+        Bezoek een %{gem_link} en abonneer je erop.
+      title: Dashboard
+  dependencies:
+    show:
+      click_to_expand:
+  email_confirmations:
+    create:
+      promise_resend: Als het opgegeven account bestaat, wordt er een activatielink
+        naar je e-mail gestuurd.
+    new:
+      submit: Bevestiging opnieuw versturen
+      title: Bevestigingsemail opnieuw sturen
+      will_email_notice: We zullen je een nieuwe email sturen met een bevestigingslink
+    update:
+      confirmed_email:
+  home:
+    index:
+      downloads_counting_html:
+      find_blurb: Vind je gems makkelijker en publiceer ze sneller.
+      learn:
+        install_rubygems: Installeer RubyGems
+  layouts:
+    application:
+      footer:
+        about: Over ons
+        api: API
+        blog: Blog
+        contribute: Bijdragen
+        data: Data
+        designed_by: Ontwerp
+        discussion_forum: Forum
+        gems_served_by:
+        guides: Handleidingen
+        help: Hulp
+        hosted_by: Hosting
+        monitored_by: Monitoring
+        optimized_by: Optimalisatie
+        resolved_with: DNS
+        security: Security
+        source_code: Code
+        statistics: Statistieken
+        status: Status
+        supported_by: Ondersteuning
+        tested_by: Getest door
+        tracking_by: Tracking
+        uptime: Uptime
+        verified_by:
+        secured_by:
+        looking_for_maintainers:
+      header:
+        dashboard: Dashboard
+        settings:
+        edit_profile:
+        search_gem_html: Gems Zoeken&hellip;
+        sign_in: Inloggen
+        sign_out: Uitloggen
+        sign_up: Registreren
+  mailer:
+    confirm_your_email:
+    confirmation_subject:
+    link_expiration_explanation_html:
+    email_confirmation:
+      title:
+      subtitle:
+      confirmation_link:
+      welcome_message:
+    email_reset:
+      title:
+      subtitle:
+      visit_link_instructions:
+    deletion_complete:
+      title:
+      subtitle:
+      subject:
+      body_html:
+    deletion_failed:
+      title:
+      subtitle:
+      subject:
+      body_html:
+    notifiers_changed:
+      subject:
+      title:
+      subtitle:
+      'on':
+      off_html:
+    gem_pushed:
+      subject:
+      title:
+    gem_yanked:
+      subject:
+      title:
+    reset_api_key:
+      subject:
+      title:
+      subtitle:
+    email_reset_update:
+      subject:
+      title:
+    ownership_confirmation:
+      subject:
+      title:
+      subtitle:
+      body_text:
+      body_html:
+      link_expiration_explanation_html:
+    owner_added:
+      subject_self:
+      subject_others:
+      title:
+      subtitle:
+      body_self_html:
+      body_others_html:
+    owner_removed:
+      subject:
+      title:
+      subtitle:
+      body_html:
+    ownerhip_request_closed:
+      title:
+      subtitle:
+      body_html:
+    ownerhip_request_approved:
+      body_html:
+    new_opwnership_requests:
+      body_html:
+      button:
+      disable_notifications:
+      owners_page:
+  news:
+    show:
+      title:
+      all_gems:
+      popular_gems:
+    popular:
+      title:
+  pages:
+    about:
+      founding_html: Het project is gestart in april 2009 door %{founder} en is sindsdien
+        uitgegroeid tot een dienst met bijdragen van meer dan %{contributors} en %{downloads}.
+        Sinds de RubyGems 1.3.6 release, is de site hernoemd van Gemcutter naar %{title} om
+        de centrale rol in de Ruby community te verstevigen.
+      support_html: Hoewel rubygems.org niet wordt gerund door één specifiek bedrijf,
+        zijn er vele die ons tot hier geholpen hebben. Het huidige design van de site
+        is gesponsord door %{dockyard}. %{github} is van onschatbare waarde geweest
+        om code te delen en er samen aan te werken. De site is begonnen op  %{heroku},
+        waarvan de geweldige service heeft geholpen om te bewijzen dat rubygems.org
+        een oplossing is waar de hele community op kan bouwen. Our infrastructure
+        is currently hosted on %{aws}.
+      technical_html: 'Een klein inkijkje in de technische aspecten van de site: Het
+        is 100% Ruby. The main site is a %{rails}-applicatie. Gems worden gehost op %{s3},
+        served by %{fastly}, en de tijd tussen het publiceren van een nieuwe gem en
+        het beschikbaar zijn voor installatie is minimaal. Voor meer informatie, %{source_code} op
+        GitHub. De code is %{license}'
+      title: Over
+      purpose:
+        better_api: Een betere API ter beschikking te stellen voor het beheren van
+          gems.
+        enable_community: De community in staat te stellen de site te verbeteren en
+          uit te breiden.
+        header: 'Welkom bij %{site}, dé hosting service voor de Ruby community. Het
+          doel van dit poroject is drieledig:'
+        transparent_pages: Het maken van meer transparante en toegankelijke projectpagina's.
+    data:
+      title:
+    download:
+      title:
+    faq:
+      title:
+    migrate:
+      title:
+    security:
+      title:
+    sponsors:
+      title:
+  passwords:
+    edit:
+      submit: Sla dit wachtwoord op
+      title: reset wachtwoord
+    new:
+      submit: Wachtwoord wijzigen
+      title: Wachtwoord wijzigen
+      will_email_notice: We sturen een link om je wachtwoord te wijzigen.
+  multifactor_auths:
+    recovery_code_html:
+    incorrect_otp:
+    otp_code:
+    require_mfa_disabled:
+    require_mfa_enabled:
+    setup_recommended:
+    strong_mfa_level_recommended:
+    ui_only_warning: 
+    new:
+      title:
+      scan_prompt:
+      otp_prompt:
+      confirm:
+      enable:
+      account:
+      key:
+      time_based:
+    create:
+      qrcode_expired:
+      success:
+    recovery:
+      continue:
+      title:
+      copy:
+      saved:
+      note_html:
+    destroy:
+      success:
+    update:
+      success:
+  notifiers:
+    update:
+      success:
+    show:
+      info:
+      'on':
+      'off':
+      recommended:
+      title:
+      update:
+      owner_heading:
+      push_heading:
+  owners:
+    confirm:
+      confirmed_email:
+      token_expired:
+    index:
+      add_owner:
+      name:
+      mfa:
+      status:
+      confirmed_at:
+      added_by:
+      action:
+      email_field:
+      submit_button:
+      info:
+      confirmed:
+      pending:
+      confirm_remove:
+    resend_confirmation:
+      resent_notice:
+    create:
+      success_notice:
+    destroy:
+      removed_notice:
+      failed_notice:
+    mfa_required:
+  settings:
+    edit:
+      title:
+      api_access:
+        confirm_reset: Weet je het zeker? Dit kan niet ongedaan worden gemaakt.
+        credentials_html: 'Als je de %{gem_commands_link} vanaf de command-line wilt
+          gebruiken, heb je een %{gem_credentials_file} bestand nodig. Je kunt deze
+          genereren met het volgende commando:'
+        key_is_html: Je API key is %{key}
+        link_text: gem commando’s
+        reset: Reset mijn API key
+        title: API toegang
+      reset_password:
+        title: Reset wachtwoord
+      mfa:
+        multifactor_auth:
+        disabled_html:
+        go_settings:
+        enabled_html:
+        update:
+        level:
+          title:
+          disabled:
+          ui_only:
+          ui_and_api:
+          ui_and_gem_signin:
+  profiles:
+    adoptions:
+      no_ownership_calls:
+      no_ownership_requests:
+      title:
+      subtitle_html:
+    edit:
+      change_avatar:
+      email_awaiting_confirmation:
+      enter_password:
+      hide_email:
+      optional_twitter_username:
+      title: Wijzig profiel
+      delete:
+        delete:
+        delete_profile:
+        warning:
+    delete:
+      title:
+      confirm:
+      instructions:
+      list_only_owner_html:
+      list_multi_owner:
+      warning:
+    rubygem:
+      owners_header:
+    destroy:
+      request_queued:
+    update:
+      confirmation_mail_sent:
+      updated:
+    request_denied:
+  rubygems:
+    aside:
+      bundler_header: Gemfile
+      copied:
+      copy_to_clipboard:
+      downloads_for_this_version: Voor deze versie
+      install: Installeer
+      required_ruby_version: Required Ruby Version
+      required_rubygems_version: Required Rubygems Version
+      requires_mfa:
+      released_with_mfa:
+      links:
+        badge: Badge
+        bugs: Bug-tracker
+        changelog:
+        code: Broncode
+        docs: Documentatie
+        download: Download
+        header: Links
+        home: Startpagina
+        mail: Mailing-list
+        report_abuse:
+        reverse_dependencies:
+        review_changes:
+        rss: RSS
+        subscribe:
+        unsubscribe:
+        wiki: Wiki
+        resend_ownership_confirmation:
+        ownership:
+    reserved:
+      reserved_namespace:
+    dependencies:
+      header: "%{title} afhankelijkheden"
+    gem_members:
+      authors_header:
+      self_no_mfa_warning_html:
+      not_using_mfa_warning_show:
+      not_using_mfa_warning_hide:
+      owners_header: Eigenaren
+      pushed_by:
+      using_mfa_info:
+      yanked_by:
+      sha_256_checksum: SHA 256 checksum
+      signature_period:
+      expired:
+    index:
+      downloads: Downloads
+      title: alle gems
+    show:
+      licenses_header:
+        one: Licentie
+        other: Licenties
+      no_licenses: N/A
+      requirements_header: Requirements
+      show_all_versions: Toon alle versies (%{count} totaal)
+      versions_header: Versies
+      yanked_notice:
+    show_yanked:
+      not_hosted_notice: Deze gem wordt momenteel niet gehost op rubygems.org.
+      reserved_namespace_html:
+        one:
+        other:
+  reverse_dependencies:
+    index:
+      title:
+      subtitle:
+    search:
+      search_reverse_dependencies_html:
+  searches:
+    advanced:
+      name:
+      summary:
+      description:
+      downloads:
+      updated:
+    show:
+      subtitle: voor %{query}
+      month_update:
+      week_update:
+      filter:
+      yanked:
+      suggestion:
+  sessions:
+    new:
+      forgot_password: Wachtwoord vergeten?
+      resend_confirmation: Geen bevestigingsemail ontvangen?
+    verify:
+      title:
+      confirm:
+      notice:
+    create:
+      account_blocked:
+  stats:
+    index:
+      title:
+      all_time_most_downloaded:
+      total_downloads:
+      total_gems:
+      total_users:
+  users:
+    create:
+      email_sent: Een bevestigingsemail is naar je e-mailadres gestuurd
+    new:
+      have_account: Heb je al een account?
+  versions:
+    index:
+      not_hosted_notice: Deze gem wordt momenteel niet gehost op rubygems.org
+      title: Alle versies van %{name}
+      versions_since: "%{count} versies sinds %{since}"
+    version:
+      yanked: verwijderd
+  will_paginate:
+    next_label: Volgende
+    page_gap: "…"
+    previous_label: Vorige
+    page_entries_info:
+      multi_page:
+      multi_page_html:
+      single_page:
+        one:
+        other:
+        zero:
+      single_page_html:
+        one:
+        other:
+        zero:
+  adoptions:
+    index:
+      title:
+      subtitle_owner_html:
+      subtitle_user_html:
+      ownership_calls:
+      no_ownership_calls:
+  ownership_calls:
+    update:
+      success_notice:
+    create:
+      success_notice:
+    index:
+      title:
+      subtitle_html:
+    share_requirements:
+    note_for_applicants:
+    created_by:
+    details:
+    apply:
+    close:
+    markup_supported_html:
+    create_call:
+  ownership_requests:
+    create:
+      success_notice:
+    update:
+      approved_notice:
+      closed_notice:
+    close:
+      success_notice:
+    ownership_requests:
+    note_for_owners:
+    your_ownership_requests:
+    close_all:
+    approve:
+    gems_published:
+    created_at:
+    no_ownership_requests:
+    create_req:
+    signin_to_create_html:
